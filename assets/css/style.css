@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+
+* {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-size: 14px;
+	font-family: 'Raleway', sans-serif;
+}
+li, a {
+	text-decoration: none;
+	list-style-type: none;
+}
+a {
+	color: lightseagreen;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 8px 0;
+}
+h2::before {
+	content: ">> ";
+	color: lightseagreen;
+}
+p {
+	line-height: 1.5;
+	margin-bottom: 5px;
+}
+.container {
+	width: 100%;
+	max-width: 860px;
+	padding: 0 5px;
+	margin: 0 auto;
+}
+.seccion {
+	padding: 6em 0;
+}
+.clear {
+	clear: both;
+}
+.grid-10, .grid-20, .grid-40, .grid-60, .grid-80, .grid-90{
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.grid-10 {
+	width: 10%;
+}
+.grid-20 {
+	width: 20%;
+}
+.grid-40 {
+	width: 40%;
+}
+.grid-60 {
+	width: 60%;
+}
+.grid-80 {
+	width: 80%;
+}
+.grid-90 {
+	width: 90%;
+}
+.img-100 {
+	width: 100%;
+}
+.space_0 {
+	padding: .5em;
+	clear: both;
+}
+hr {
+	width: 98%;
+	margin: 20px auto;
+	border: 1px solid powderblue;
+}
+.curriculum {
+	background-color: powderblue;
+}
+.cv {
+	background-color: white;
+}
+.presentacion {
+	text-align: center;
+	position: relative;
+}
+.presentacion h1 {
+	margin: 15px 0 10px 0;
+}
+.presentacion h1 span {
+	color: lightseagreen;
+}
+.presentacion img {
+	width: 150px;
+	margin-top: -80px;
+	border-radius: 80px;
+	border: 5px solid powderblue;
+}
+.educacion .grid-20, 
+.experiencia .grid-20 {
+	padding-left: 0;
+}
+.experiencia p.periodo {
+	color: darkgray;
+	font-size: .75rem;
+}
+.habilidades div{
+	background-color: lightseagreen;
+	color: white;
+	padding: 5px;
+	margin: 3PX 0;
+}
+.habilidades .w-100, .habilidades .w-90, .habilidades .w-80, .habilidades .w-70, .habilidades .w-50, .habilidades .w-40 {
+	clear: both;
+}
+.habilidades .w-100 {
+	width: 100%;
+}
+.habilidades .w-90 {
+	width: 90%;
+}
+.habilidades .w-80 {
+	width: 80%;
+}
+.habilidades .w-70 {
+	width: 70%;
+}
+.habilidades .w-50 {
+	width: 50%;
+}
+.habilidades .w-40 {
+	width: 40%;
+}
+.hobbies {
+	margin-top: 15px;
+}
+.hobbies span {
+	background-color: lightseagreen;
+	color: white;
+	padding: 5px;
+}
+.estrella {
+	color: lightseagreen;
+	margin-left: 5px;
+}
+.estrella-2 {
+	color: powderblue;
+}
+footer .credito {
+	text-align: right;
+	padding-right: 15px;
+	padding-bottom: 10px;
+}
+footer hr {
+	margin-bottom: 10px
+}
+
+@media screen and (max-width: 768px) {
+	.grid-40, .grid-60, .grid-80, .grid-90 {
+		width: 100%;
+	}
+	.experiencia .grid-80, .educacion .grid-80{
+		width: 80%;
+	}
+}
